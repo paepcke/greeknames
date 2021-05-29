@@ -24,6 +24,5 @@ for exhaustive methods.
          src/greek_name_classifier.py -h
     o Run the unit tests:
           nose2
-
-
-
+    o src/greek_name_classifier.py src/tests/data/tst_names.txt
+    
