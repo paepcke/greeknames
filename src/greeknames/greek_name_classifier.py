@@ -155,5 +155,6 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    GreekNameClassifier(args.namefile, filters=args.filter)
+    nm_classifier = GreekNameClassifier(args.namefile, filter=args.filter)
+    print(f"The syllable dictionary: {nm_classifier.syll_dict}")
         
